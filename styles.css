@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.container {
+  max-width: 1000px;
+  margin: 4rem auto 0;
+  gap: 2.5rem;
+  height: 100%;
+}
+img {
+  width: 100%;
+}
+p {
+  margin-top: 0;
+}
+.container,
+.right-col {
+  display: flex;
+}
+/* ----LEFT-COL---- */
+.breadcrumb {
+  color: #565959;
+  font-size: 0.8rem;
+}
+.main-img {
+  flex: 1;
+  box-shadow: 0px 2px 5px lightgray;
+}
+
+/* -------RIGHT-COL---------- */
+.right-col {
+  width: 95%;
+  flex-direction: column;
+}
+.title {
+  font-size: 38px;
+  font-weight: lighter;
+}
+.subtitle {
+  font-weight: bold;
+}
+.author-name {
+  color: #007185;
+}
+.rating-img {
+  width: 120px;
+  margin-bottom: 1rem;
+}
