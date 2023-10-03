@@ -38,7 +38,7 @@ p {
   font-weight: lighter;
 }
 .subtitle {
-  font-weight: bold;
+  margin-top: 0;
 }
 .author-name {
   color: #007185;
